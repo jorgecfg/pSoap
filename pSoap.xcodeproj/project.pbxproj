@@ -22,6 +22,8 @@
 		6611A30617FDD97D001C4E04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6611A2E517FDD97D001C4E04 /* UIKit.framework */; };
 		6611A30E17FDD97D001C4E04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6611A30C17FDD97D001C4E04 /* InfoPlist.strings */; };
 		6611A31017FDD97D001C4E04 /* pSoapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A30F17FDD97D001C4E04 /* pSoapTests.m */; };
+		6611A31C17FDD995001C4E04 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A31B17FDD995001C4E04 /* XMLDictionary.m */; };
+		6611A31F17FDE001001C4E04 /* CalcPrecoData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6611A31E17FDE001001C4E04 /* CalcPrecoData.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		6611A30B17FDD97D001C4E04 /* pSoapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pSoapTests-Info.plist"; sourceTree = "<group>"; };
 		6611A30D17FDD97D001C4E04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6611A30F17FDD97D001C4E04 /* pSoapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pSoapTests.m; sourceTree = "<group>"; };
+		6611A31A17FDD995001C4E04 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		6611A31B17FDD995001C4E04 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		6611A31E17FDE001001C4E04 /* CalcPrecoData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CalcPrecoData.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,8 @@
 		6611A2E717FDD97D001C4E04 /* pSoap */ = {
 			isa = PBXGroup;
 			children = (
+				6611A31D17FDDFD9001C4E04 /* Envelope */,
+				6611A31917FDD995001C4E04 /* XMLDictionary */,
 				6611A2F017FDD97D001C4E04 /* AppDelegate.h */,
 				6611A2F117FDD97D001C4E04 /* AppDelegate.m */,
 				6611A2F317FDD97D001C4E04 /* Main_iPhone.storyboard */,
@@ -153,6 +160,23 @@
 				6611A30C17FDD97D001C4E04 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6611A31917FDD995001C4E04 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				6611A31A17FDD995001C4E04 /* XMLDictionary.h */,
+				6611A31B17FDD995001C4E04 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		6611A31D17FDDFD9001C4E04 /* Envelope */ = {
+			isa = PBXGroup;
+			children = (
+				6611A31E17FDE001001C4E04 /* CalcPrecoData.txt */,
+			);
+			name = Envelope;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6611A2F817FDD97D001C4E04 /* Main_iPad.storyboard in Resources */,
+				6611A31F17FDE001001C4E04 /* CalcPrecoData.txt in Resources */,
 				6611A2FD17FDD97D001C4E04 /* Images.xcassets in Resources */,
 				6611A2F517FDD97D001C4E04 /* Main_iPhone.storyboard in Resources */,
 				6611A2EC17FDD97D001C4E04 /* InfoPlist.strings in Resources */,
@@ -254,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6611A2FB17FDD97D001C4E04 /* ViewController.m in Sources */,
+				6611A31C17FDD995001C4E04 /* XMLDictionary.m in Sources */,
 				6611A2F217FDD97D001C4E04 /* AppDelegate.m in Sources */,
 				6611A2EE17FDD97D001C4E04 /* main.m in Sources */,
 			);

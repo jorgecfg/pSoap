@@ -129,6 +129,8 @@
     
     NSLog(@"==================================");
     NSLog(@"Valor Orçamento Correios: %@", ValorCorreios);
+    UILabel *ValorServico = (UILabel *)[self.view viewWithTag:1];
+    ValorServico.text = ValorCorreios;
 }
 
 

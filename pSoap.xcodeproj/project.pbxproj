@@ -24,6 +24,7 @@
 		6611A31017FDD97D001C4E04 /* pSoapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A30F17FDD97D001C4E04 /* pSoapTests.m */; };
 		6611A31C17FDD995001C4E04 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A31B17FDD995001C4E04 /* XMLDictionary.m */; };
 		6611A31F17FDE001001C4E04 /* CalcPrecoData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6611A31E17FDE001001C4E04 /* CalcPrecoData.txt */; };
+		BA77ACBF17FF412400CF6856 /* correios2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA77ACBE17FF412400CF6856 /* correios2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		6611A31A17FDD995001C4E04 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
 		6611A31B17FDD995001C4E04 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		6611A31E17FDE001001C4E04 /* CalcPrecoData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CalcPrecoData.txt; sourceTree = "<group>"; };
+		BA77ACBE17FF412400CF6856 /* correios2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = correios2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		6611A2E717FDD97D001C4E04 /* pSoap */ = {
 			isa = PBXGroup;
 			children = (
+				BA77ACBE17FF412400CF6856 /* correios2.jpg */,
 				6611A31D17FDDFD9001C4E04 /* Envelope */,
 				6611A31917FDD995001C4E04 /* XMLDictionary */,
 				6611A2F017FDD97D001C4E04 /* AppDelegate.h */,
@@ -257,6 +260,7 @@
 			files = (
 				6611A2F817FDD97D001C4E04 /* Main_iPad.storyboard in Resources */,
 				6611A31F17FDE001001C4E04 /* CalcPrecoData.txt in Resources */,
+				BA77ACBF17FF412400CF6856 /* correios2.jpg in Resources */,
 				6611A2FD17FDD97D001C4E04 /* Images.xcassets in Resources */,
 				6611A2F517FDD97D001C4E04 /* Main_iPhone.storyboard in Resources */,
 				6611A2EC17FDD97D001C4E04 /* InfoPlist.strings in Resources */,
@@ -500,6 +504,7 @@
 				6611A31517FDD97D001C4E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6611A31617FDD97D001C4E04 /* Build configuration list for PBXNativeTarget "pSoapTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				6611A31817FDD97D001C4E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
